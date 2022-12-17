@@ -1,0 +1,22 @@
+FoamFile {
+    version 2.0;
+    format ascii;
+    class dictionary;
+    object setFieldsDict;
+}
+defaultFieldValues (volScalarFieldValue p 0.0 volScalarFieldValue omega 3.375 volScalarFieldValue nut 0.0 volScalarFieldValue k 0.00375 volVectorFieldValue U (0.0 0.0 0.0));
+regions (
+    cylinderToCell {
+        p1 (0.0 0.0 0.0);
+        p2 (0.0 0.0 -0.6);
+        radius 0.15;
+        fieldValues (volVectorFieldValue U (0.0 0.0 -2.0));
+    }
+    
+    cylinderToCell {
+        p1 (0.0 0.0 -0.6);
+        p2 (0.0 0.0 -1.2);
+        radius 0.25;
+        fieldValues (volVectorFieldValue U (0.0 0.0 -1.0));
+    }
+);
