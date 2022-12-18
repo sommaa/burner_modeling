@@ -13,10 +13,10 @@ Features:
 - Rans simulation K-omega_SST
 
 ## Results
-- mesh clip
+- mesh clip (cropped)
   - 1
 ![alt text](https://github.com/sommaa/burner_modeling/blob/main/images_BURNER/BURNER_mesh.png)
-  -2
+  - 2
 ![alt text](https://github.com/sommaa/burner_modeling/blob/main/images_BURNER/BURNER_mesh2.png)
 
 - velocity field
