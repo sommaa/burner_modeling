@@ -1,6 +1,6 @@
-# burner_modeling
+# Burner Modeling
 
-modeling of the fluid_dynamics of a turbulent burner (without reactions) in OpenFoam.
+modeling of the fluid dynamics of a turbulent burner (without reactions) in OpenFoam.
 
 Features:
 
@@ -12,7 +12,7 @@ Features:
 - $D_{equivalent} = 11 cm$
 - custom burner for steam reforming
 - 7 Mln mesh, run on 16 cores.
-- Rans simulation K-omega_SST
+- RANS simulation, turbulence model: K-omega_SST
 
 ## Results
 
